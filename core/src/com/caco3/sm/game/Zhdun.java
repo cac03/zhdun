@@ -6,10 +6,10 @@ import com.caco3.sm.base.AbstractScreenItem;
 
 public class Zhdun extends AbstractScreenItem {
 
-  public Zhdun() {
-    Texture texture = new Texture("zhdun.png");
-    setTexture(texture);
-    setLeftX(Gdx.graphics.getWidth() / 2 - texture.getWidth() / 2);
-    setTopY(Gdx.graphics.getHeight() / 2 - texture.getHeight() / 2);
-  }
+    public Zhdun() {
+        Texture texture = new Texture("zhdun.png");
+        setTexture(texture);
+        setLeftX(Gdx.graphics.getWidth() / 2.0F - texture.getWidth() / 2.0F);
+        setTopY(Gdx.graphics.getHeight() / 2.0F - texture.getHeight() / 2.0F);
+    }
 }

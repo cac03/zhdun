@@ -1,5 +1,5 @@
 package com.caco3.sm.game;
 
 public interface GameOverListener {
-  void onGameOver(int score);
+    void onGameOver(int score);
 }
